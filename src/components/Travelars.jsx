@@ -50,7 +50,7 @@ const Travelars = () => {
     </div>
   ));
   return (
-    <div className=" max-w-[1200px] mx-auto px-3 py-[100px] overflow-hidden">
+    <div className=" max-w-[1200px] mx-auto px-3 py-7 sm:py-[100px] overflow-hidden">
       <h2 className="text-[40px] font-bold leading-[150%] text-center text-[#011736] font-[Montserrat]">
         Best travelars of this month
       </h2>

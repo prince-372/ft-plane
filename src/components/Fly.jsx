@@ -5,8 +5,8 @@ import dots from "../assets/image/dots.webp";
 const Water = () => {
   return (
     <>
-      <div className="max-w-[1200px] mx-auto px-3 bg-[#ffff]  flex flex-wrap relative z-[1] py-[100px] overflow-hidden">
-        <div data-aos="zoom-in-right" className="lg:w-1/2 w-full  ">
+      <div className="max-w-[1200px] mx-auto px-3 bg-[#ffff]  flex flex-wrap relative z-[1] py-7 sm:py-[100px] overflow-hidden">
+        <div data-aos="zoom-in-right" className="lg:w-1/2 w-full flex items-center md:justify-center justify-start ">
           <img src={tourist} alt="water" className=" " />
         </div>
         <div data-aos="zoom-in-left" className="lg:w-1/2 w-full mt-[40px] lg:mt-0 ">

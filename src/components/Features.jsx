@@ -52,11 +52,11 @@ const Features = () => {
     ));
 
   return (
-    <div className="max-w-[1200px] mx-auto px-3 py-[100px] overflow-hidden">
+    <div className="max-w-[1200px] mx-auto px-3 overflow-hidden pb-3">
       <h2 className=" text-[40px] font-bold leading-[150%] font-[Montserrat] text-[#030522] text-center">
         Our Features
       </h2>
-      <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 items-center justify-center gap-8 pt-[30px] '>{cardcomponent}
+      <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 items-center justify-center gap-8  '>{cardcomponent}
     </div>
     </div>
   );

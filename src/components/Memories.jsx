@@ -6,7 +6,7 @@ import building4 from '../assets/image/building-img4.webp';
 
 const Memories = () => {
   return (
-    <div className='max-w-[1200px] mx-auto px-3 py-[100px]'>
+    <div className='max-w-[1200px] mx-auto px-3 py-7 sm:py-[100px]'>
      <h2 className=' text-[40px] font-bold leading-[150%] text-center text-[#011736] pb-10 font-[Montserrat]'>Make memories with us</h2>
      <div className=' grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  justify-center gap-5'>
        <img  className=' object-cover hover:scale-[0.8] duration-300' src={building1} alt="building" />
