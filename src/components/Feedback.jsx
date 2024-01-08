@@ -8,7 +8,7 @@ import stars from "../assets/image/stars.webp"
 
 const NextArrow = ({ onClick }) => {
     return (
-        <button className="w-[50px] group h-[50px] left-[38%] bg-indigo-600 bg-opacity-10 transition-all right-[40%] flex items-center justify-center bottom-[-30%] absolute  hover:bg-indigo-600 rounded-full hover:shadow-[4px_10px_30px_1px_#313EF7]" onClick={onClick}>
+        <button className="w-[50px] group h-[50px] left-[10%] sm:left-[38%] bg-indigo-600 bg-opacity-10 transition-all right-[40%] flex items-center justify-center bottom-[-19%] sm:bottom-[-30%] absolute  hover:bg-indigo-600 rounded-full hover:shadow-[4px_10px_30px_1px_#313EF7]" onClick={onClick}>
             <svg className=' stroke-black rotate-180 group-hover:stroke-white' xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
                 <path d="M0.916748 21L10.9167 11L0.91675 0.999999" strokeWidth="2" />
             </svg>
@@ -18,7 +18,7 @@ const NextArrow = ({ onClick }) => {
 
 const PrevArrow = ({ onClick }) => {
     return (
-        <button className="w-[50px] group h-[50px] bg-indigo-600 bg-opacity-10 transition-all right-[37%] flex items-center justify-center bottom-[-30%] absolute  hover:bg-indigo-600 rounded-full hover:shadow-[4px_10px_35px_1px_#313EF7]" onClick={onClick}>
+        <button className="w-[50px] group h-[50px] bg-indigo-600 bg-opacity-10 transition-all right-[45%] sm:right-[37%] flex items-center justify-center bottom-[-19%] sm:bottom-[-30%] absolute  hover:bg-indigo-600 rounded-full hover:shadow-[4px_10px_35px_1px_#313EF7]" onClick={onClick}>
             <svg className=' stroke-black group-hover:stroke-white' xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
                 <path d="M0.916748 21L10.9167 11L0.91675 0.999999" strokeWidth="2" />
             </svg>
@@ -37,7 +37,7 @@ const Feedback = () => {
     };
     return (
         <div>
-            <div className='max-w-[1200px] px-3 mx-auto my-3 overflow-hidden'>
+            <div className='max-w-[1200px] px-3 mx-auto my-3 overflow-x-clip mb-12'>
                 <p className='max-w-[524px] mx-auto text-center text-indigo-600 mb-2 text-xl font-semibold font-["Montserrat"] leading-normal'>What’s our customer saying</p>
                 <p className="max-w-[534px] mx-auto mb-[60px] text-center text-slate-900 text-[40px] font-bold font-['Montserrat'] capitalize leading-[60px] tracking-wide">Our Customer Feedback</p>
                 <div data-aos="fade-down" className=' grid grid-cols-1 lg:grid-cols-5  mx-[-12px] gap-[18px]  '>
