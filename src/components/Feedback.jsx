@@ -33,18 +33,18 @@ const Feedback = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
     };
     return (
         <div>
-            <div className='max-w-[1200px] px-3 mx-auto'>
+            <div className='max-w-[1200px] px-3 mx-auto my-3 overflow-hidden'>
                 <p className='max-w-[524px] mx-auto text-center text-indigo-600 mb-2 text-xl font-semibold font-["Montserrat"] leading-normal'>What’s our customer saying</p>
                 <p className="max-w-[534px] mx-auto mb-[60px] text-center text-slate-900 text-[40px] font-bold font-['Montserrat'] capitalize leading-[60px] tracking-wide">Our Customer Feedback</p>
-                <div className=' flex  mx-[-12px] gap-[18px]'>
-                    <div className='md:w-7/12 w-full  px-3'>
+                <div data-aos="fade-down" className=' grid grid-cols-1 lg:grid-cols-5  mx-[-12px] gap-[18px]  '>
+                    <div className=' col-span-1 lg:col-span-3 px-3'>
                         <img src={sliderbig} alt="sliderbig" />
                     </div>
-                    <div className='md:w-5/12 w-full  px-3 relative'>
+                    <div data-aos="fade-up" className=' col-span-1 lg:col-span-2 px-3 relative '>
                         <Slider {...settings}>
                             <div
                                 className="max-w-[500px] px-[21px] py-[30px] bg-white rounded-[20px] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10)] flex-col justify-start items-start gap-2.5 inline-flex"
@@ -56,7 +56,7 @@ const Feedback = () => {
                                         <img src={stars} alt="" />
                                     </div>
                                 </div>
-                                <p className="w-[458px] text-zinc-900 text-lg font-medium font-['Montserrat'] leading-[34px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don</p>
+                                <p className="max-w-[458px] text-zinc-900 text-lg font-medium font-['Montserrat'] leading-[34px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don</p>
                             </div>
                             <div
                                 className="max-w-[500px] px-[21px] py-[30px] bg-white rounded-[20px] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10)] flex-col justify-start items-start gap-2.5 inline-flex"
@@ -68,7 +68,7 @@ const Feedback = () => {
                                         <img src={stars} alt="" />
                                     </div>
                                 </div>
-                                <p className="w-[458px] text-zinc-900 text-lg font-medium font-['Montserrat'] leading-[34px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don</p>
+                                <p className="max-w-[458px] text-zinc-900 text-lg font-medium font-['Montserrat'] leading-[34px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don</p>
                             </div>
                             <div
                                 className="max-w-[500px] px-[21px] py-[30px] bg-white rounded-[20px] box-shadow flex-col justify-start items-start gap-2.5 inline-flex"
@@ -80,7 +80,7 @@ const Feedback = () => {
                                         <img src={stars} alt="" />
                                     </div>
                                 </div>
-                                <p className="w-[458px] text-zinc-900 text-lg font-medium font-['Montserrat'] leading-[34px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don</p>
+                                <p className="max-w-[458px] text-zinc-900 text-lg font-medium font-['Montserrat'] leading-[34px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don</p>
                             </div>
                         </Slider>
                     </div>

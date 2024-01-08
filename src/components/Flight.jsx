@@ -4,9 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import card from "../assets/image/flight-card.png";
-import card2 from "../assets/image/flight-card.png";
-import card3 from "../assets/image/flight-card.png";
-import card4 from "../assets/image/flight-card.png";
+import card2 from "../assets/image/flight-card2.png";
 import cardlayer from "../assets/image/slider-layar.png";
 const Flight = () => {
   const first = React.useRef(null);
@@ -41,7 +39,7 @@ const Flight = () => {
     <div className="bg-[#010223] overflow-hidden">
       <div className=" max-w-[1040px] mx-auto px-3 py-[50px]">
         <div className=" flex flex-wrap flex-row -mx-3">
-          <div className="lg:w-1/2 w-full px-3">
+          <div data-aos="zoom-in-right" className="lg:w-1/2 w-full px-3">
             <h2 className=" text-white sm:text-[40px] text-2xl font-bold sm:leading-[60px] leading-[30px] tracking-[0.6px]  uppercase lg:max-w-[496px]">
               Book Popular Flight Tickets
             </h2>
@@ -55,50 +53,38 @@ const Flight = () => {
               className=" flex justify-center  w-full max-w-[315px] h-[315px]"
             />
           </div>
-          <div className="lg:w-1/2 w-full px-3 relative ">
+          <div data-aos="zoom-in-left   " className="lg:w-1/2 w-full px-3 relative ">
             <Slider {...settings} ref={first}>
               <div className=" d-flex justify-content-center align-items-center w-100">
                 <img
                   src={card}
                   alt="card"
-                  className="xl:w-full lg:w-[65%]  w-full sm:max-w-[390px] h-[505px]"
+                  className="xl:w-full lg:w-[65%]  object-fill   w-full sm:max-w-[390px] h-[505px]"
                 />
               </div>
               <div className=" d-flex justify-content-center align-items-center w-100">
                 <img
                   src={card2}
                   alt="card"
-                  className="xl:w-full lg:w-[65%]  w-full sm:max-w-[390px] h-[505px]"
+                  className="xl:w-full lg:w-[65%]  object-fill   w-full sm:max-w-[390px] h-[505px]"
                 />
               </div>
               <div className=" d-flex justify-content-center align-items-center w-100">
                 <img
-                  src={card3}
+                  src={card}
                   alt="card"
-                  className="xl:w-full lg:w-[65%]  w-full sm:max-w-[390px] h-[505px]"
+                  className="xl:w-full lg:w-[65%]  object-fill   w-full sm:max-w-[390px] h-[505px]"
                 />
               </div>
               <div className=" d-flex justify-content-center align-items-center w-100">
                 <img
-                  src={card4}
+                  src={card2}
                   alt="card"
-                  className="xl:w-full lg:w-[65%]  w-full sm:max-w-[390px] h-[505px]"
+                  className="xl:w-full lg:w-[65%]  object-fill   w-full sm:max-w-[390px] h-[505px]"
                 />
               </div>
-              <div className=" d-flex justify-content-center align-items-center w-100">
-                <img
-                  src={card3}
-                  alt="card"
-                  className="xl:w-full lg:w-[65%]  w-full sm:max-w-[390px] h-[505px]"
-                />
-              </div>
-              <div className=" d-flex justify-content-center align-items-center w-100">
-                <img
-                  src={card4}
-                  alt="card"
-                  className="xl:w-full lg:w-[65%]  w-full sm:max-w-[390px] h-[505px]"
-                />
-              </div>
+              
+              
             </Slider>
             <div className=" flight flex gap-[11px] absolute xl:right-[-12%] right-[1%] bottom-[0%] align-items-center   flex-col text-end justify-content-end">
               <button
@@ -137,7 +123,7 @@ const Flight = () => {
             <img
               src={cardlayer}
               alt="cardlayer"
-              className=" hidden sm:block absolute xl:max-w-[450px] max-w-[360px]  md:max-w-[378px] lg:left-[16%] left-[33%] top-[4%] lg:top-[0%] h-[520px]"
+              className=" hidden sm:block absolute xl:max-w-[450px] max-w-[360px]  md:max-w-[333px] lg:left-[10%] left-[17%] top-[4%] lg:top-[0%] h-[520px]"
             />
           </div>
         </div>

@@ -63,11 +63,11 @@ const Header = () => {
                 Your Orders
               </a>
             </li>
-            <li>
+            <li className=" ">
               <a
                 onClick={CloseView}
                 href="#"
-                className="text-white text-base font-semibold leading-7 border font-[Montserrat] border-[#fff] py-[10px] px-10 rounded-[59px] "
+                className="rounded-[59px] before:rounded-[59px] z-[1] before:z-[-1] text-white hover:text-black border before:transition-all before:ease-linear before:hover:bg-white  duration-300 before:duration-300 before:absolute before:left-[-100%] before:bg-transparent before:hover:left-[0] before:hover:w-full text-base font-semibold leading-7 py-[10px] px-10 font-[Montserrat] before:top-0 before:w-full before:h-full   hover:border-[#fff] relative overflow-hidden inline-block"
               >
                 Let’s Fly
               </a>

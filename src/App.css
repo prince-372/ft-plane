@@ -1,5 +1,5 @@
-@media (max-width:768px) {
-  .mobileview2{
+@media (max-width: 768px) {
+  .mobileview2 {
     flex-direction: column;
     justify-content: center;
     color: wheat;
@@ -12,7 +12,7 @@
   }
 }
 
-.bg-header-img{
+.bg-header-img {
   background-image: url("./assets/image/bg-header-img.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,26 +20,25 @@
   min-height: 100vh;
 }
 
-.bg-footer-img{
+.bg-footer-img {
   background-image: url("./assets/image/bg-footer-img.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
 }
 
-.flightslick-dots li.slick-active {
+.slick-dots li.slick-active {
   width: 15px !important;
   height: 15px !important;
   border-radius: 28px;
-  background: #FFFFFF !important;
+  background: #ffffff !important;
 }
 
-.flightslick-dots li button:before {
-  content: '' !important;
+.slick-dots li button:before {
+  content: "" !important;
 }
 
-.flightslick-dots li {
+.slick-dots li {
   position: relative;
   display: inline-block;
   margin: 0 5px;
@@ -48,10 +47,10 @@
   width: 15px !important;
   height: 15px !important;
   border-radius: 15px !important;
-  background: #1A1B39 !important;
+  background: #1a1b39 !important;
 }
 
-.flightslick-dots {
+.slick-dots {
   position: absolute;
   bottom: 70% !important;
   display: block;
@@ -64,22 +63,36 @@
   text-align: unset !important;
 }
 
-@media (max-width:1280px) {
-  .flightslick-dots {
-      right: -15% !important;
+@media (max-width: 1280px) {
+  .slick-dots {
+    right: -15% !important;
   }
 }
 
-@media (max-width:1023.9px) {
+@media (max-width: 1023.9px) {
   .slick-dots {
-      right: -7% !important;
+    right: -7% !important;
   }
 }
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
   .slick-dots {
-      left: 0% !important;
-      bottom: -8% !important;
-      transform: rotate(0deg);
+    left: 0% !important;
+    bottom: -8% !important;
+    transform: rotate(0deg);
   }
+}
+.myaeroplane {
+  animation: myrotate 4s linear infinite alternate;
+}
+@keyframes myrotate {
+  0% {
+    transform: rotate(4deg);
+  }
+  100% {
+    transform: rotate(-4deg);
+  }
+}
+.loder {
+  animation: myrotate 1s linear alternate infinite;
 }

@@ -11,13 +11,13 @@ export const Tabs = () => {
         setdata(tab);
     }
     return (
-        <div className='max-w-[1200px] mx-auto relative mt-[-79px] px-3'>
-            <div className='absolute flex flex-wrap top-[-59px] ml-3 left-[0] z-10'>
-                <button onClick={() => tabs('tab1')} className={`${data === "tab3" ? "tab1" : ""}transition w-[173.33px] h-[60px] px-5 py-4 bg-white  border-b rounded-tl-[30px]  justify-center items-center gap-2.5 inline-flex text-center text-slate-950 text-lg font-semibold font-['Montserrat'] leading-7 hover:bg-indigo-600 hover:text-white`}>Economy</button>
-                <button onClick={() => tabs('tab2')} className={`${data === "tab2" ? "tab1" : ""}transition w-[173.33px] h-[60px] px-5 py-4 bg-white border-b justify-center items-center border-r gap-2.5 inline-flex text-center text-slate-950 text-lg font-semibold font-['Montserrat'] leading-7 hover:bg-indigo-600 hover:text-white`}>Business</ button>
-                <button onClick={() => tabs('tab3')} className={`${data === "tab1" ? "tab1" : ""}transition w-[173.33px] h-[60px] px-5 py-4 bg-white border-b rounded-tr-[30px]  justify-center items-center gap-2.5 inline-flex text-center text-slate-950 text-lg font-medium font-[Montserrat] leading-7 hover:bg-indigo-600 hover:text-white`}>data</button>
+        <div className='max-w-[1200px] mx-auto relative -translate-y-[30%] sm:-translate-y-1/2 px-3 '>
+            <div className='absolute flex top-[-59px] ml-3 left-[0] z-10'>
+                <button onClick={() => tabs('tab1')} className={`${data === "tab1" && "!bg-indigo-600 text-white"} transition w-24 sm:w-28 md:w-[173.33px] h-[60px] px-4 sm:px-5 py-4 bg-white  border-b rounded-tl-[30px]  justify-center items-center gap-2.5 inline-flex text-center text-slate-950 text-base sm:text-lg font-semibold font-['Montserrat'] leading-7`}>Economy</button>
+                <button onClick={() => tabs('tab2')} className={`${data === "tab2" && "!bg-indigo-600 text-white"} transition w-24 sm:w-28 md:w-[173.33px] h-[60px] px-4 sm:px-5 py-4 bg-white border-b justify-center items-center border-r gap-2.5 inline-flex text-center text-slate-950 text-lg font-semibold font-['Montserrat'] leading-7`}>Business</ button>
+                <button onClick={() => tabs('tab3')} className={`${data === "tab3" && "!bg-indigo-600 text-white"} transition w-24 sm:w-28 md:w-[173.33px] h-[60px] px-2 sm:px-5 py-4 bg-white border-b rounded-tr-[30px]  justify-center items-center gap-2.5 inline-flex text-center text-slate-950 text-base sm:text-lg font-semibold font-[Montserrat] leading-7`}>data</button>
             </div >
-            {data === "tab1" && <div className='w-full min-h-[216px] bg-white rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10);] flex-col justify-center items-center gap-2.5 inline-flex p-10'>
+            {data === "tab1" && <div className='w-full min-h-[216px] bg-white sm:rounded-tr-[20px] rounded-bl-[20px] rounded-br-[20px] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10);] flex-col justify-center items-center gap-2.5 inline-flex p-10'>
                 <div className='w-full flex justify-between gap-6 flex-wrap mb-6'>
                     <div className=" justify-start items-start gap-2 inline-flex">
                         <div className='flex justify-center items-center w-[70px] h-[70px] rounded-[50px] bg-[#F5F5FF] '>
@@ -62,8 +62,7 @@ export const Tabs = () => {
                     grow shrink basis-0 text-center text-white text-base font-semibold font-[Montserrat] leading-7">Book Now</button>
                     {showModal ? (
                         <>
-                            <div
-                                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                            <div  className="justify-center items-center flex  fixed inset-0 z-50 outline-none focus:outline-none"
                             >
                                 <div className="relative w-auto my-6 mx-auto text-center max-w-3xl">
                                     <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
@@ -140,12 +139,12 @@ export const Tabs = () => {
                 </div>
                 <div className="text-center">
                     <button onClick={() => setShowModal(true)}
-                        className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 inline-flex
-                    grow shrink basis-0 text-center text-white text-base font-semibold font-[Montserrat] leading-7">Book Now</button>
+                        className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 
+                    grow shrink basis-0 text-centerrounded-[59px] before:rounded-[59px] z-[1] before:z-[-1] text-white hover:text-black border before:transition-all before:ease-linear before:hover:bg-white  duration-300 before:duration-300 before:absolute before:left-[-100%] before:bg-transparent before:hover:left-[0] before:hover:w-full text-base font-semibold leading-7 font-[Montserrat] before:top-0 before:w-full before:h-full   hover:border-[#fff] relative overflow-hidden inline-block">Book Now</button>
                     {showModal ? (
                         <>
                             <div
-                                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                                className="justify-center items-center flex  fixed inset-0 z-50 outline-none focus:outline-none"
                             >
                                 <div className="relative w-auto my-6 mx-auto text-center max-w-3xl">
                                     <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
@@ -227,7 +226,7 @@ export const Tabs = () => {
                     {showModal ? (
                         <>
                             <div
-                                className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                                className="justify-center items-center flex  fixed inset-0 z-50 outline-none focus:outline-none"
                             >
                                 <div className="relative w-auto my-6 mx-auto text-center max-w-3xl">
                                     <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-indigo-600 outline-none focus:outline-none">

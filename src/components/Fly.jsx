@@ -5,11 +5,11 @@ import dots from "../assets/image/dots.webp";
 const Water = () => {
   return (
     <>
-      <div className="max-w-[1200px] mx-auto px-3 bg-[#ffff]  flex flex-wrap relative z-[1] py-[100px]">
-        <div className="lg:w-1/2 w-full  ">
+      <div className="max-w-[1200px] mx-auto px-3 bg-[#ffff]  flex flex-wrap relative z-[1] py-[100px] overflow-hidden">
+        <div data-aos="zoom-in-right" className="lg:w-1/2 w-full  ">
           <img src={tourist} alt="water" className=" " />
         </div>
-        <div className="lg:w-1/2 w-full mt-[40px] lg:mt-0 ">
+        <div data-aos="zoom-in-left" className="lg:w-1/2 w-full mt-[40px] lg:mt-0 ">
           <p className=" font-[Montserrat] text-[20px] text-[#313EF7] font-black  leading-6">
             Let’s Fly
           </p>
@@ -56,8 +56,8 @@ const Water = () => {
               </div>
             </div>
           </div>
-          <div className="w-[200px] h-14 px-[45px] py-3.5 mt-[40px] bg-indigo-600 rounded-[56px] shadow border justify-start items-start gap-2.5 inline-flex">
-            <button className="grow shrink basis-0 text-center text-white text-base font-semibold font-['Montserrat'] leading-7">
+          <div className="">
+            <button className="grow shrink basis-0 text-center  w-[200px] h-14 px-[45px] py-3.5 mt-[40px] rounded-[59px] bg-[#313EF7] before:rounded-[59px] z-[1] before:z-[-1] text-white border before:transition-all before:ease-linear before:hover:bg-white  duration-300 before:duration-300 before:absolute before:left-[-100%] before:bg-transparent before:hover:left-[0] before:hover:w-full text-base font-semibold leading-7 hover:text-[#313EF7] font-[Montserrat] before:top-0 before:w-full before:h-full relative  hover:border-[#313EF7]  overflow-hidden inline-block">
               Book Now
             </button>
           </div>

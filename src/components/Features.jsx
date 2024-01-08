@@ -35,7 +35,7 @@ const myarray = [
 
 const Features = () => {
     const cardcomponent = myarray.map((myarray) => (
-        <div className={` ${myarray.margin} flex flex-col justify-center items-center w-[281.633px] rounded-[185px] bg-[#fff] shadow-[0_100px_200px_0_rgba(1,23,54,0.05)] px-5 py-10`}>
+        <div className={` ${myarray.margin} flex flex-col justify-center items-center max-sm:w-full md:max-w-[281px] rounded-[185px] bg-[#fff] shadow-[0_100px_200px_0_rgba(1,23,54,0.05)] px-5 py-10 hover:scale-[0.8] duration-300`}>
           <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-[50px] bg-[#F5F5FF] ">
              {myarray.Img}
           </div>

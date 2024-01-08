@@ -36,7 +36,7 @@ const mycard = [
 ];
 const Travelars = () => {
   const cardarray = mycard.map((mycard) => (
-    <div className=" w-[282px] h-[420px] rounded-[213px] bg-white shadow-[0_100px_200px_0_rgba(1,23,54,0.05)] overflow-hidden group">
+    <div data-aos="flip-up" className=" max-w-[282px] h-[420px] rounded-[213px] bg-white shadow-[0_100px_200px_0_rgba(1,23,54,0.05)] overflow-hidden group">
       <img className=" group-hover:scale-[1.1] duration-300" src={mycard.largeimg} alt="half" />
       <div className="flex justify-center">
         <img className=" translate-y-[-21%]" src={mycard.smallimg} alt="small" />
