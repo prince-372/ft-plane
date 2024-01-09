@@ -1,7 +1,7 @@
 
 // import aeroplane from '../assets/image/aroplane-img.webp';
-import bigaero from "../assets/image/Big_Airplan.png";
-import text from "../assets/image/Aviation_text.png";
+import bigaero from "../assets/image/Big_Airplan.webp";
+import text from "../assets/image/Aviation_text.webp";
 
 const Hero = () => {
   return (
