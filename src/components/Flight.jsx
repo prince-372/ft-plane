@@ -40,10 +40,10 @@ const Flight = () => {
       <div className=" max-w-[1040px] mx-auto px-3 py-[50px]">
         <div className=" flex flex-wrap flex-row -mx-3">
           <div data-aos="zoom-in-right" className="lg:w-1/2 w-full px-3">
-            <h2 className=" text-white sm:text-[40px] text-2xl font-bold sm:leading-[60px] leading-[30px] tracking-[0.6px]  uppercase lg:max-w-[496px]">
+            <h2 className=" text-white text-[18px] sm:text-[40px] text-2xl font-bold sm:leading-[60px] leading-[30px] tracking-[0.6px]  uppercase lg:max-w-[496px]">
               Book Popular Flight Tickets
             </h2>
-            <p className="text-[#A6A7B2]  text-base font-normal leading-[24px] lg:max-w-[496px]">
+            <p className="text-[#A6A7B2] text-[14px] sm:text-base font-normal leading-[24px] lg:max-w-[496px]">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's
             </p>

@@ -157,7 +157,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <p className=" text-white text-sm font-normal font-['Montserrat'] flex items-center gap-1  justify-center py-5">CopyrightFT © <span className="text-white text-sm font-normal font-['Montserrat']">PLANE {(new Date().getFullYear())} All right reserved</span></p>
+          <p className=" text-white text-[11px] sm:text-[13px] md:text-sm font-normal font-['Montserrat'] flex items-center gap-1  justify-center py-5">CopyrightFT © <span className="text-white text-[12px] sm:text-sm font-normal font-['Montserrat']">PLANE {(new Date().getFullYear())} All right reserved</span></p>
         </div>
       </div>
     </>

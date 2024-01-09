@@ -8,7 +8,7 @@ import stars from "../assets/image/stars.webp"
 
 const NextArrow = ({ onClick }) => {
     return (
-        <button className="w-[50px] group h-[50px] left-[38%] bg-indigo-600 bg-opacity-10 transition-all flex items-center justify-center bottom-[-30%] absolute  hover:bg-indigo-600 rounded-full hover:shadow-[2px_10px_30px_0px_#313EF7]" onClick={onClick}>
+        <button className="w-[50px] group h-[50px] left-[25%] bg-indigo-600 bg-opacity-10 transition-all flex items-center justify-center bottom-[-30%] absolute  hover:bg-indigo-600 rounded-full " onClick={onClick}>
             <svg className=' stroke-black rotate-180 group-hover:stroke-white' xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
                 <path d="M0.916748 21L10.9167 11L0.91675 0.999999" stroke-width="2" />
             </svg>
@@ -18,7 +18,7 @@ const NextArrow = ({ onClick }) => {
 
 const PrevArrow = ({ onClick }) => {
     return (
-        <button className="w-[50px] group h-[50px] bg-indigo-600 bg-opacity-10 transition-all left-[55%] flex items-center justify-center bottom-[-30%] absolute  hover:bg-indigo-600 rounded-full hover:shadow-[2px_10px_30px_0px_#313EF7]" onClick={onClick}>
+        <button className="w-[50px] group h-[50px] bg-indigo-600 bg-opacity-10 transition-all left-[55%] flex items-center justify-center bottom-[-30%] absolute  hover:bg-indigo-600 rounded-full " onClick={onClick}>
             <svg className=' stroke-black group-hover:stroke-white' xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
                 <path d="M0.916748 21L10.9167 11L0.91675 0.999999" stroke-width="2" />
             </svg>

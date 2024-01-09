@@ -5,7 +5,7 @@ const Subscribe = () => {
     <div className=" bg-[#f5f5ff] overflow-hidden">
       <div className=" max-w-[1200px] mx-auto px-3 ">
         <div className=" py-7 sm:py-[100px]">
-          <h2 data-aos="zoom-in" className=" text-[40px] font-bold leading-[150%] text-center text-[#011736] pb-10 font-[Montserrat] max-w-[534px] mx-auto">
+          <h2 data-aos="zoom-in" className=" text-[25px] md:text-[40px] font-bold leading-[150%] text-center text-[#011736] pb-10 font-[Montserrat] max-w-[534px] mx-auto">
             Subscribe Newsletter & get letest news
           </h2>
           <div data-aos="zoom-out" className=" flex rounded-full max-w-[502px] mx-auto bg-white py-4 px-4 relative">
