@@ -70,7 +70,7 @@ const Feedback = () => {
                                             <img src={stars} alt="" />
                                         </div>
                                     </div>
-                                    <p className="text-zinc-900 sm:text-lg text-base  text-start font-medium font-['Montserrat'] leading-[34px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don</p>
+                                    <p className="text-zinc-900 sm:text-lg text-base  text-start font-medium font-['Montserrat'] leading-[34px] italic">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don</p>
                                 </div>
                             </div>
                             <div className=' max-w-[500px] flex w-full flex-col rounded-3xl shadow-lg'>
@@ -82,7 +82,7 @@ const Feedback = () => {
                                             <img src={stars} alt="" />
                                         </div>
                                     </div>
-                                    <p className="text-zinc-900 sm:text-lg text-base  text-start font-medium font-['Montserrat'] leading-[34px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don</p>
+                                    <p className="text-zinc-900 sm:text-lg text-base  text-start font-medium font-['Montserrat'] leading-[34px] italic">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don</p>
                                 </div>
                             </div>
                             <div className=' max-w-[500px] flex w-full flex-col rounded-3xl shadow-lg'>
@@ -94,7 +94,7 @@ const Feedback = () => {
                                             <img src={stars} alt="" />
                                         </div>
                                     </div>
-                                    <p className="text-zinc-900 sm:text-lg text-base  text-start font-medium font-['Montserrat'] leading-[34px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don</p>
+                                    <p className="text-zinc-900 sm:text-lg text-base  text-start font-medium font-['Montserrat'] leading-[34px] italic">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don</p>
                                 </div>
                             </div>
                         </Slider>
