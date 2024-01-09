@@ -9,8 +9,8 @@ const Subscribe = () => {
             Subscribe Newsletter & get letest news
           </h2>
           <div data-aos="zoom-out" className=" flex rounded-full max-w-[502px] mx-auto bg-white py-4 px-4 relative">
-          <input className=" outline-none w-full text-xl font-normal leading-6 text-[#AEB5BF] placeholder:text-[#AEB5BF]" type="email" placeholder="Enter your email address" />
-          <button className=" rounded-[59px] bg-[#313EF7] before:rounded-[59px] z-[1] before:z-[-1] text-white hover:text-[#313EF7] border before:transition-all before:ease-linear before:hover:bg-white  duration-300 before:duration-300 before:absolute before:left-[-100%] before:bg-transparent before:hover:left-[0] before:hover:w-full text-base font-semibold leading-7 py-[10px] px-10 font-[Montserrat] before:top-0 before:w-full before:h-full   hover:border-[#313EF7]  overflow-hidden inline-block absolute right-2  top-1">Subscribe</button>
+          <input className=" outline-none w-full text-[12px] md:text-xl font-normal leading-6 text-[#AEB5BF] placeholder:text-[#AEB5BF]" type="email" placeholder="Enter your email address" />
+          <button className=" rounded-[59px] bg-[#313EF7] before:rounded-[59px] z-[1] before:z-[-1] text-white hover:text-[#313EF7] border before:transition-all before:ease-linear before:hover:bg-white  duration-300 before:duration-300 before:absolute before:left-[-100%] before:bg-transparent before:hover:left-[0] before:hover:w-full text-[10px] md:text-base font-semibold leading-7 py-[10px] px-10 font-[Montserrat] before:top-0 before:w-full before:h-full   hover:border-[#313EF7]  overflow-hidden inline-block absolute right-2 top-1 md:top-2">Subscribe</button>
           </div>
         </div>
       </div>
