@@ -66,7 +66,7 @@ export const Tabs = () => {
                                 <div className="relative w-auto my-6 mx-auto text-center max-w-3xl">
                                     <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                                         <div className="flex items-start mx-auto font-['Montserrat'] max-w-[500px] p-5 border-b border-solid border-blueGray-200 rounded-t">
-                                            <h3 className=" text-[100px] font-bold">
+                                            <h3 className=" text-[26px] md:text-[100px] font-bold">
                                                 Congrats!
                                             </h3>
                                             <button
@@ -76,7 +76,7 @@ export const Tabs = () => {
                                             </button>
                                         </div>
                                         <div className="relative p-6 flex-auto">
-                                            <p className="my-4 text-blueGray-500 text-[40px] font-bold font-['Montserrat'] leading-relaxed">
+                                            <p className="my-4 text-blueGray-500 text-[14px] md:text-[40px] font-bold font-['Montserrat'] leading-relaxed">
                                                 Your Economy Class Ticket Has Booked Successfully!
                                             </p>
                                         </div>
@@ -148,7 +148,7 @@ export const Tabs = () => {
                                 <div className="relative w-auto my-6 mx-auto text-center max-w-3xl">
                                     <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                                         <div className="flex items-start mx-auto font-['Montserrat'] max-w-[500px] p-5 border-b border-solid border-blueGray-200 rounded-t">
-                                            <h3 className=" text-[100px] font-bold">
+                                            <h3 className=" text-[26px] md:text-[100px] font-bold">
                                                 Congrats!
                                             </h3>
                                             <button
@@ -158,7 +158,7 @@ export const Tabs = () => {
                                             </button>
                                         </div>
                                         <div className="relative p-6 flex-auto">
-                                            <p className="my-4 text-blueGray-500 text-[40px] font-bold font-['Montserrat'] leading-relaxed">
+                                            <p className="my-4 text-blueGray-500 text-[14px] md:text-[40px] font-bold font-['Montserrat'] leading-relaxed">
                                                 Your Business Class Ticket Has Booked Successfully!
                                             </p>
                                         </div>
@@ -230,7 +230,7 @@ export const Tabs = () => {
                                 <div className="relative w-auto my-6 mx-auto text-center max-w-3xl">
                                     <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                                         <div className="flex items-start mx-auto  font-['Montserrat'] max-w-[500px] p-5 border-b border-solid border-blueGray-200 rounded-t">
-                                            <h3 className=" text-[100px] font-bold">
+                                            <h3 className=" text-[26px] md:text-[100px] font-bold">
                                                 Congrats!
                                             </h3>
                                             <button
@@ -240,7 +240,7 @@ export const Tabs = () => {
                                             </button>
                                         </div>
                                         <div className="relative p-6 flex-auto">
-                                            <p className="my-4 text-blueGray-500 text-[40px] font-bold  font-['Montserrat'] leading-relaxed">
+                                            <p className="my-4 text-blueGray-500 text-[14px] md:text-[40px] font-bold  font-['Montserrat'] leading-relaxed">
                                                 Your data Class Ticket Has Booked Successfully!
                                             </p>
                                         </div>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import pagelogo from "../assets/image/page-logo.webp";
 
 const Header = () => {
+
   const [first, setfirst] = useState(false);
   function MobileView() {
     setfirst(!first);
