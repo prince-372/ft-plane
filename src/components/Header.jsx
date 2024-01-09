@@ -20,7 +20,7 @@ const Header = () => {
       <nav>
         <div className="flex justify-between items-center max-w-[1140px] mx-auto px-3 ">
           <div className="my-5">
-            <img src={pagelogo} alt="logo" />
+            <a href=""><img src={pagelogo} alt="logo" /></a>
           </div>
           <ul
             className={` ${

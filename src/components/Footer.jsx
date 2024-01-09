@@ -17,15 +17,15 @@ const Footer = () => {
                 but the majority have suffered alteration in some form
               </p>
               <div className=" flex items-center gap-3 pt-6">
-              <div className=" w-[42px] h-[41px] bg-[#fff] rounded-[42px] flex items-center justify-center hover:animate-bounce duration-300">
-               <a href="https://www.facebook.com/" target="_blank"><Facebook/></a>
-                </div>
-              <div className=" w-[42px] h-[41px] bg-[#fff] rounded-[42px] flex items-center justify-center hover:animate-bounce duration-300">
-               <a href="https://in.linkedin.com/" target="_blank"><Linkedin/></a>
-                </div>
-              <div className=" w-[42px] h-[41px] bg-[#fff] rounded-[42px] flex items-center justify-center hover:animate-bounce duration-300">
-               <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="_blank"><Twitter/></a>
-                </div>
+              <a href="https://www.facebook.com/" target="_blank" className=" w-[42px] h-[41px] bg-[#fff] rounded-[42px] flex items-center justify-center hover:animate-bounce duration-300">
+               <a href=""><Facebook/></a>
+                </a>
+              <a href="https://in.linkedin.com/" target="_blank" className=" w-[42px] h-[41px] bg-[#fff] rounded-[42px] flex items-center justify-center hover:animate-bounce duration-300">
+               <a ><Linkedin/></a>
+                </a>
+              <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="_blank" className=" w-[42px] h-[41px] bg-[#fff] rounded-[42px] flex items-center justify-center hover:animate-bounce duration-300">
+               <a href="" ><Twitter/></a>
+                </a>
               </div>
             </div>
 

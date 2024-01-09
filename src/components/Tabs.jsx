@@ -58,7 +58,7 @@ export const Tabs = () => {
                 </div>
                 <div className="text-center">
                     <button onClick={() => setShowModal(true)}
-                        className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5w-[200px] h-14 px-[45px] py-3.5 mt-[40px] rounded-[59px] bg-[#313EF7] before:rounded-[59px] z-[1] before:z-[-1] text-white border before:transition-all before:ease-linear before:hover:bg-white  duration-300 before:duration-300 before:absolute before:left-[-100%] before:bg-transparent before:hover:left-[0] before:hover:w-full text-base font-semibold leading-7 hover:text-[#313EF7] font-[Montserrat] before:top-0 before:w-full before:h-full relative  hover:border-[#313EF7]  overflow-hidden inline-block">Book Now</button>
+                        className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);] py-3.5w-[200px] h-14 px-[45px] py-3.5 mt-[40px] rounded-[59px] bg-[#313EF7] before:rounded-[59px] z-[1] before:z-[-1] text-white border before:transition-all before:ease-linear before:hover:bg-white  duration-300 before:duration-300 before:absolute before:left-[-100%] before:bg-transparent before:hover:left-[0] before:hover:w-full text-base font-semibold leading-7 hover:text-[#313EF7] font-[Montserrat] before:top-0 before:w-full before:h-full relative  hover:border-[#313EF7]  overflow-hidden inline-block">Book Now</button>
                     {showModal ? (
                         <>
                             <div  className="justify-center items-center flex  fixed inset-0 z-50 outline-none focus:outline-none"
@@ -139,7 +139,7 @@ export const Tabs = () => {
                 <div className="text-center">
                     <button onClick={() => setShowModal(true)}
                         className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 
-                    grow shrink basis-0 text-centerrounded-[59px] before:rounded-[59px] z-[1] before:z-[-1] text-white hover:text-black border before:transition-all before:ease-linear before:hover:bg-white  duration-300 before:duration-300 before:absolute before:left-[-100%] before:bg-transparent before:hover:left-[0] before:hover:w-full text-base font-semibold leading-7 font-[Montserrat] before:top-0 before:w-full before:h-full   hover:border-[#fff] relative overflow-hidden inline-block">Book Now</button>
+                    grow shrink basis-0 text-centerrounded-[59px] before:rounded-[59px] z-[1] before:z-[-1] text-white hover:text-indigo-600 border before:transition-all before:ease-linear before:hover:bg-white  duration-300 before:duration-300 before:absolute before:left-[-100%] before:bg-transparent before:hover:left-[0] before:hover:w-full text-base font-semibold leading-7 font-[Montserrat] before:top-0 before:w-full before:h-full   hover:border-indigo-600 relative overflow-hidden inline-block">Book Now</button>
                     {showModal ? (
                         <>
                             <div
@@ -220,8 +220,8 @@ export const Tabs = () => {
                 </div>
                 <div className="text-center">
                     <button onClick={() => setShowModal(true)}
-                        className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 inline-flex
-                    grow shrink basis-0 text-center text-white text-base font-semibold font-[Montserrat] leading-7">Book Now</button>
+                        className="mx-auto shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25);]  px-[45px] py-3.5 bg-indigo-600 rounded-[56px] justify-start items-start gap-2.5 
+                        grow shrink basis-0 text-centerrounded-[59px] before:rounded-[59px] z-[1] before:z-[-1] text-white hover:text-indigo-600 border before:transition-all before:ease-linear before:hover:bg-white  duration-300 before:duration-300 before:absolute before:left-[-100%] before:bg-transparent before:hover:left-[0] before:hover:w-full text-base font-semibold leading-7 font-[Montserrat] before:top-0 before:w-full before:h-full   hover:border-indigo-600 relative overflow-hidden inline-block">Book Now</button>
                     {showModal ? (
                         <>
                             <div
